@@ -1,0 +1,18 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "Email",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "task2": "node task2.js"
+  },
+  "author": "Peace",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
